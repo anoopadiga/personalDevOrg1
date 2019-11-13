@@ -1,0 +1,15 @@
+<apex:page standardController="Opportunity" tabStyle="Opportunity">
+ <apex:form >  
+     <apex:pageBlock >
+       <apex:pageBlockButtons >
+       <apex:commandButton value="Create"/>
+       <apex:commandButton value="Cancel"/>
+     </apex:pageBlockButtons>  
+       <apex:pageblockSection title="Opportunity Information">
+           <apex:outputField Value="{!Opportunity.name}"/>
+           <apex:outputField Value="{!Opportunity.amount}"/>
+           <apex:outputField Value="{!Opportunity.closeDate}"/>
+       </apex:pageblockSection>
+   </apex:pageBlock>
+</apex:form>
+</apex:page>

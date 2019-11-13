@@ -1,0 +1,15 @@
+<apex:page >
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Congratulations</h1>
+  This is your new Page: Display_Record_Types
+  <!-- End Default Content REMOVE THIS -->
+  <apex:pageBlock title="Object Selector">
+      <apex:pageBlockSection title="Object Selector" collapsible="false">
+          <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+      </apex:pageBlockSection>
+      
+      <apex:pageBlockSection title="Record Types Available" collapsible="true">
+      
+      </apex:pageBlockSection>
+  </apex:pageBlock>
+</apex:page>

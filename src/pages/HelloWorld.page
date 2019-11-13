@@ -1,0 +1,13 @@
+<apex:page sidebar="true">
+    <h1>Hello World</h1>
+    <apex:pageBlock title="A Page Block">
+        <apex:pageBlockSection title="A Section Title">
+            <apex:tabPanel title="Panel"></apex:tabPanel>
+        </apex:pageBlockSection>
+        
+        <apex:pageBlockSection title="A New Section">
+            This is another section.
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+
+</apex:page>
